@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background: #f5f6fa;
 }
 
@@ -15,5 +14,5 @@
 
 .landing-component p {
   font-size: 1.2rem;
-  color: red;
+  color: #555;
 }
