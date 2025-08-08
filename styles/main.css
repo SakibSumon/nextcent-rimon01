@@ -1,0 +1,19 @@
+.landing-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f6fa;
+}
+
+.landing-component h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.landing-component p {
+  font-size: 1.2rem;
+  color: red;
+}
