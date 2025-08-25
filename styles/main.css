@@ -16,3 +16,51 @@
   font-size: 1.2rem;
   color: #555;
 }
+
+.primary-color{
+  color: #4CAF4F;
+}
+.secondary-color{
+  color: #4D4D4D;
+}
+.tertiary-color{
+  color: #717171;
+}
+
+.page-width{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4D4D4D;
+}
+
+.primary-btn{
+  background-color: #4CAF4F;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+.secondary-btn{
+  background-color: #4D4D4D;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
