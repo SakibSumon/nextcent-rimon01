@@ -17,50 +17,76 @@
   color: #555;
 }
 
-.primary-color{
-  color: #4CAF4F;
+.primary-color {
+  color: #4caf4f;
 }
-.secondary-color{
-  color: #4D4D4D;
+.secondary-color {
+  color: #4d4d4d;
 }
-.tertiary-color{
+.tertiary-color {
   color: #717171;
 }
 
-.page-width{
-  max-width: 1200px;
+.page-width {
+  max-width: auto;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-.header{
+.header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
   gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 0.6rem;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: #4D4D4D;
+  color: #4d4d4d;
+
+  font-family: "Inter", sans-serif;
 }
 
-.primary-btn{
-  background-color: #4CAF4F;
+.primary-btn {
+  background-color: #4caf4f;
   color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+}
+.primary-btn a {
+  color: white;
+  text-decoration: none;
+}
+.secondary-btn {
+  background-color: #ffffff00;
+  color: #1aa721;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 6px;
+  text-decoration: none;
+}
+.secondary-btn a {
+  color: #1aa721;
+  text-decoration: none;
 }
 
-.secondary-btn{
-  background-color: #4D4D4D;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
+.hero-section {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  background: #f5f6fa;
+  padding: 10rem 1rem;
+
+  font-family: "Inter", sans-serif;
 }
